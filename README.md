@@ -13,7 +13,7 @@ brew install <formula>
 
 | Formula | Description | Source |
 |---|---|---|
-| `mkit` | Content-addressed VCS toolkit (Zig). | https://github.com/officialunofficial/mkit |
+| `mkit` | Content-addressed VCS toolkit (Rust). | https://github.com/officialunofficial/mkit |
 
 (More formulae will be added as projects ship.)
 
