@@ -1,28 +1,28 @@
 class Mkit < Formula
   desc "Content-addressed VCS for creative work (with pluggable notary adapters)"
   homepage "https://github.com/officialunofficial/mkit"
-  version "0.4.1"
+  version "0.5.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/officialunofficial/mkit/releases/download/v#{version}/mkit-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "c7d566f11fd6c3a9b52420d06db11e04c1575ad6ad8170a84a22f6a5aac5c3f2"
+      sha256 "5722730d7e4e9f515306068d9984bc63d80715f400ca864b4b9b568af411a759"
     end
     on_intel do
       url "https://github.com/officialunofficial/mkit/releases/download/v#{version}/mkit-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "d06c8bf67caef2317b6573c1f004c678b4061ee71443c0d6b3109be1880964ad"
+      sha256 "f9694687e6428c587328d96fa3e868b4651976a888dd9f4c8766f62b7f9375b7"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/officialunofficial/mkit/releases/download/v#{version}/mkit-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ba56ebbc79406e6c342234bae61326899303b80b21cb96fa4b0bf932151aa043"
+      sha256 "622e78ba798c9fada3e362e5f53c6d4f27ca1bad0e42901cd50e368b331aadbc"
     end
     on_intel do
       url "https://github.com/officialunofficial/mkit/releases/download/v#{version}/mkit-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e8acb5eb68436977a5bf4b536200e0c486ba10fbf4bd93f26f8755f52fbe6db0"
+      sha256 "c3fd44f4ae55e420ef071544871caeca82a927fd3ddf9dd61c38ab9adb2b881e"
     end
   end
 
