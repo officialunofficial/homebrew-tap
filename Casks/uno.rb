@@ -1,6 +1,6 @@
 cask "uno" do
-  version "0.3.0"
-  sha256 "5498c564f8bb60a73e14a3be16d035ae44b700ac76a22e04deab49c2642ba804"
+  version "0.4.0"
+  sha256 "8e8c6d43185d9cdd8115f1a61d582b5456bbe97dffdb90fd8ead166a099ad6bd"
 
   url "https://github.com/officialunofficial/uno-cli/releases/download/uno-cli-v#{version}/uno-cli-darwin-arm64.tar.gz"
   name "Uno CLI"
