@@ -5,23 +5,23 @@ class Kit < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/officialunofficial/kit/releases/download/v0.8.1/kit-0.8.1-aarch64-apple-darwin.tar.gz"
-      sha256 "947b891e89b74306f6584480fad28bb5717942d73bd853807df0c5e2fd107239"
+      url "https://github.com/officialunofficial/kit/releases/download/v0.9.0/kit-0.9.0-aarch64-apple-darwin.tar.gz"
+      sha256 "d895fecedd8d740bd833a98333e7d2c60bb8e466440880e7020dc7883e2b1260"
     end
     on_intel do
-      url "https://github.com/officialunofficial/kit/releases/download/v0.8.1/kit-0.8.1-x86_64-apple-darwin.tar.gz"
-      sha256 "8f570cbaf2f4a81d2c871ac9c7de8400f77505f0e93624f59486015342856630"
+      url "https://github.com/officialunofficial/kit/releases/download/v0.9.0/kit-0.9.0-x86_64-apple-darwin.tar.gz"
+      sha256 "31862b1a30c5f9cfe596f1e9b1c49d1c86bbed2783b978d3d8b612992c605629"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/officialunofficial/kit/releases/download/v0.8.1/kit-0.8.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1a33359b5b02f73cdb71ab9d29d3a1e4f72e242267f12bca6305d2f062cadeb7"
+      url "https://github.com/officialunofficial/kit/releases/download/v0.9.0/kit-0.9.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c38f8fb5ece68a2ba9f85baf76030985215a5b6dc89508e97b52638aa85056c1"
     end
     on_intel do
-      url "https://github.com/officialunofficial/kit/releases/download/v0.8.1/kit-0.8.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7c4ea04393985b3675813a0d5730709d605e2b668f116092d6c3378917955638"
+      url "https://github.com/officialunofficial/kit/releases/download/v0.9.0/kit-0.9.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3a73fdff889073551b702f441155174018cf88c4c645101f39946b489348d3af"
     end
   end
 
